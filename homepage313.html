@@ -13,6 +13,37 @@
     </style>
 </head>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
+<!-- Provide Mouse-over... effects --> 
+/*
+$(document).ready(function(){
+    $("p").mouseover(function(){
+        $("p").css("background-color", "darkgreen");
+    });
+    $("p").mouseout(function(){
+        $("p").css("background-color", "white");
+    });
+}); */ 
+var ycounter = 0;
+var colorCounter = 0;
+function MSUmyOverFunction() 
+{
+/*	alert("I MADE IT!!!!");
+	*/
+	ycounter = ycounter + 1; 
+	if ((ycounter % 10) == 1)
+	{
+		document.getElementById("MSUText").style.backgroundColor = "white";
+		document.getElementById("paragraphDetails").style.backgroundColor = "darkgreen";
+	}
+	else if ((ycounter % 30) == 16)
+	{
+		document.getElementById("paragraphDetails").style.backgroundColor = "white";
+		document.getElementById("MSUText").style.backgroundColor = "darkgreen";
+	}
+}
+</script>
 <body>
     <form id="entirePAGE">
 
@@ -22,45 +53,38 @@
             <!--background behind title-->
             <div id="pageTitle">
                 <h1>
-					<img id="leftPictures" src="MSU helmet.png" alt="MSU helmet34" style="width:30px;height:30px;"/>
+					<img id="leftTitlePictures" src="MSU helmet.png" alt="MSU helmet34"/>
+					<img id="leftTitlePictures" src="MSU helmet.png" alt="MSU helmet34"/>
+					<img id="leftTitlePictures" src="MSU helmet.png" alt="MSU helmet34"/>
 					<span>Parker Hubbard's Home Page</span>
-					<img src="MSU helmet.png" alt="MSU helmet34" class=pull-left style="width:30px;height:30px"/>
+					<img id="rightTitlePictures" src="MSU helmet.png" alt="MSU helmet34"/>
+					<img id="rightTitlePictures" src="MSU helmet.png" alt="MSU helmet34"/>
+					<img id="rightTitlePictures" src="MSU helmet.png" alt="MSU helmet34"/>
 				</h1>
-				<table style="width:100%">
-					<tr>
-						<td>
-							<img src="MSU helmet.png" alt="MSU helmet34" class=pull-left style="width:25px;height:25px"/>
-						</td>
-						<td style="font-size: 50px">MSU</td>
-						<td>
-							<img src="MSU helmet.png" alt="MSU helmet34" class=pull-left style="width:25px;height:25px"/>
-						</td>
-					</tr>
-				</table>
-				
-				<img src="MSU helmet.png" alt="MSU helmet34" style="width:30px;height:30px; padding-left: 25px; padding-right: 20px">
-				<img src="MSU helmet.png" alt="MSU helmet34" style="width:30px;height:30px; padding-left: 25px; padding-right: 20px">
-				<img src="MSU helmet.png" alt="MSU helmet34" style="width:30px;height:30px; padding-left: 25px; padding-right: 20px">
-				<img src="MSU helmet.png" alt="MSU helmet34" style="width:30px;height:30px; padding-left: 25px; padding-right: 20px">
-				<img src="MSU helmet.png" alt="MSU helmet34" style="width:30px;height:30px; padding-left: 25px; padding-right: 20px">
-				<img src="MSU helmet.png" alt="MSU helmet34" style="width:30px;height:30px; padding-left: 25px; padding-right: 20px">
-				<img src="MSU helmet.png" alt="MSU helmet34" style="width:30px;height:30px; padding-left: 25px; padding-right: 20px">
-				
-				<img src="MSU helmet.png" alt="MSU helmet34" style="width:30px;height:30px; padding-left: 25px; padding-right: 20px">
-				<img src="MSU helmet.png" alt="MSU helmet34" style="width:30px;height:30px; padding-left: 25px; padding-right: 20px">
-				<img src="MSU helmet.png" alt="MSU helmet34" style="width:30px;height:30px; padding-left: 25px; padding-right: 20px">
-				msu
+
             </div>
 			<!--background behind the Buttons and field surrounding-->
-			<div id="butBack" style="background-color: white">
+			<div id="butBack">
 				<!--Now Buttons to have page open on current site-->
-				<a href="homepage07.html"> <button style="margin-left:40%; top: 100px" type="button">Home Page</button> </a>
-				<a href="productpage07.html"> <button type="button">Other Websites</button> </a>
+				<a id="refUno"; href="homepage313.html"> <button type="button">Home Page</button> </a>
+				<a href="homeworkLinkPage.html"> <button type="button">Homework Links</button> </a>
 			</div>
 			
+			<div id="bodyText"; >
+				<p id="paragraphDetails"; onmousemove="MSUmyOverFunction()">
+				This Spring semester, Brother Burton's class will be taking CS 313, a web design class that will focus on server-side 
+				technologies and work on many skills including: Creating and debugging a complete n-tier web application,
+				recognizing the importance of separating web applications into tiers, recognizing the importance of the MVC (model, view, 
+				controller) architecture, ability to recognize the fundamentals behind the many competing web technologies, and Understand 
+				the advantages and disadvantages of different web technologies. (P.S. Wave between this, and next, text several times.)
+				</p>
+				<p id="MSUText"; onmousemove="MSUmyOverFunction()">
+					GO SPRING!!! GO GREEN!!!
+				</p>
+			</div>
 			
-			<div id="anotherMainBackground" style="margin-top: 500px;">
-                <h1>next</h1>
+			<div id="anotherMainBackground">
+                <h1></h1>
 			</div>
 			        <!--Bottom Details-->
 			<div id="bottomDec">
