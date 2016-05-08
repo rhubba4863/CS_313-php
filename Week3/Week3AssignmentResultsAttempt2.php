@@ -10,8 +10,8 @@ if($_SESSION["voted"] == "completed")
 //unset($_SESSION["voted"]);
 
 
-//COMMENT AND UNCOMMENT THE NEXT LINE TO ALLOW ACCESS ONCE SURVEY IS COMPLETED
-$_SESSION["voted"] = "notcompleted";
+//COMMENT AND UNCOMMENT THE NEXT LINE TO ALLOW ACCESS ONCE SURVEY IS COMPLETED //////////////////////////////////////@@@@@@@@@@@@@@@@@@@@@@@@
+//$_SESSION["voted"] = "notcompleted";
 ?>
 
 <!DOCTYPE html>
@@ -194,7 +194,7 @@ $_SESSION["voted"] = "notcompleted";
 					//STEP 2: DECODE FILE
 					$obj5 = json_decode($fileBeenRead2);
 					
-					echo "Here are the current survey results. Go back and fill in all questions to add your survey.";
+					echo "Here are the current survey results. Go back and fill in all questions to add your survey.<br>";
 					echo $obj5[1]->choice2 . " of the voters prefered learn 2.0's calendar. <br>";
 					echo $obj5[2]->choice2 . " of the voters prefered learn 2.0's Alert System. <br>";
 					echo $obj5[3]->choice2 . " of the voters prefered learn 2.0's grading system. <br>";
