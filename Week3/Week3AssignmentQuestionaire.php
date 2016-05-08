@@ -87,7 +87,15 @@ else
 				<a href="Week3AssignmentResultsAttempt2.php"> <button type="button">Check Previous Poll Results</button> </a>
 				<input type="submit" value="Submit Your Current Survey">
 			</div>
-
+			
+			<!-- Sound Option-->
+			<audio controls autoplay>
+			<source src="horse.ogg" type="audio/ogg">
+			<source src="Also Sprach Zarathustra.mp3" type="audio/mpeg">
+			Sorry, Your browser does not support the current audio element.
+			</audio>
+			
+			<!--<embed name="GoodEnough" src="/music/Yeah.mp3" loop="false" hidden="true" autostart="true">-->
 			<!-- check boxs, have []-->
 			</form>
 		</div>
