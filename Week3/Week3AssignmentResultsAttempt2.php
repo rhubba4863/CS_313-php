@@ -11,7 +11,7 @@ if($_SESSION["voted"] == "completed")
 
 
 //COMMENT AND UNCOMMENT THE NEXT LINE TO ALLOW ACCESS ONCE SURVEY IS COMPLETED //////////////////////////////////////@@@@@@@@@@@@@@@@@@@@@@@@
-$_SESSION["voted"] = "notcompleted";
+//$_SESSION["voted"] = "notcompleted";
 ?>
 
 <!DOCTYPE html>
