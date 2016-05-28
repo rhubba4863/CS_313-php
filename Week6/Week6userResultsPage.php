@@ -79,11 +79,11 @@ else
 				//BEGIN DISPLAY OF INFORMATION	 -- WHICH OBSERVATION THE USER WANTS
 						
 						echo '<div>';
-						echo '1) ' . '<a href="Week3AssignmentResultsAttempt2.php"> <button type="button">Classes of a Student</button> </a>' . '<br/>';
-						echo '2) ' . '<a href="Week6ProjectQuestionaire.php"> <button type="button">Classes of a Semester</button> </a>' . '<br/>';
-						echo '3) ' . '<a href="Week3AssignmentResultsAttempt2.php"> <button type="button">Students of a Class</button> </a>' . '<br/>';
-						echo '4) ' . '<a href="Week6ProjectQuestionaire.php"> <button type="button">Students of a Semester</button> </a>' . '<br/>';
-						echo '5) ' . '<a href="Week3AssignmentResultsAttempt2.php"> <button type="button">Semesters of a Student</button> </a>' . '<br/>';
+						echo '1) ' . '<a href=""> <button type="button">Classes of a Student</button> </a>' . '<br/>';
+						echo '2) ' . '<a href=""> <button type="button">Classes of a Semester</button> </a>' . '<br/>';
+						echo '3) ' . '<a href=""> <button type="button">Students of a Class</button> </a>' . '<br/>';
+						echo '4) ' . '<a href=""> <button type="button">Students of a Semester</button> </a>' . '<br/>';
+						echo '5) ' . '<a href=""> <button type="button">Semesters of a Student</button> </a>' . '<br/>';
 						echo '6) ' . '<a href=""> <button type="button">Semesters of a Class</button> </a>' . '<br/>';
 						echo '<br/>';
 						//get data by students name
@@ -127,7 +127,7 @@ else
 			<div style="padding-bottom: 2%">
 				<!-- <button>Go to others results </button> -->
 				<!-- To return to Refrence Page-->
-				<a href="Week3AssignmentResultsAttempt2.php"> <button type="button">Return to Homework Links</button> </a> 
+				<a href="../homeworkLinkPage.html"> <button type="button">Return to Homework Links</button> </a> 
 				<a href="Week6ProjectQuestionaire.php"> <button type="button">Intro Page</button> </a>
 				
 			</div>

@@ -103,6 +103,7 @@ else
 		
 			<div style="padding-bottom: 2%">
 				<!-- <button>Go to others results </button> -->
+				<a href="../homeworkLinkPage.html"> <button type="button">Return to Homework Links</button> </a>
 				<a href="Week6ProjectQuestionaire.php"> <button type="button">Intro Page</button> </a>
 				<a href="Week6userResultsPage.php"> <button type="button">View Survey Results</button> </a>
 				<!-- USE METHOD BELOW WHEN GETTING ACTUAL RESULTS OF QUIZ -->
