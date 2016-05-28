@@ -113,7 +113,7 @@ require("dbConnector.php");
 		
 			<div style="padding-bottom: 2%">
 				<!-- <button>Go to others results </button> -->
-				<a href="Week3AssignmentResultsAttempt2.php"> <button type="button">Return to Homework Links</button> </a>
+				<a href="homeworkLinkPage.html"> <button type="button">Return to Homework Links</button> </a>
 				<a href="Week6ProjectQuestionPage.php"> <button type="button">Take Survey</button> </a>
 				<a href="Week6userResultsPage.php"> <button type="button">View Survey Results</button> </a>
 				<!-- <input type="submit" value="Submit Your Current Survey"> -->
