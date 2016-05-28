@@ -17,6 +17,9 @@ else
 {
 	$_SESSION["titlerph"] = "Feel free to return and complete a survey";
 }
+
+//USED THIS FUNCTION FOR CONNECTION DETAILS
+require("dbConnector.php");
 ?>
 
 
@@ -57,13 +60,19 @@ else
 					
 					<!-- Grabbing the options from the table "answerboard"-->
 					<!-- 1) first set proper connection -->
-					<?php
+					<?php 
 						// a php program file
 						try
 						{
-						   $user = 'phubbs';
-						   $password = 'mormon64';
-						   $db = new PDO('mysql:host=localhost;dbname=cs313_survey', $user, $password);
+							//METHOD TO RUN ON MY PC
+							//$user = 'phubbs';
+							//$password = 'mormon64';
+							//$db = new PDO('mysql:host=localhost;dbname=cs313_survey', $user, $password);
+						   
+							//METHOD TO USE ON PC OR OPENSHIFT
+							
+							$db = loadDatabase();
+							//echo 'I connected' . '<br/>';
 						}
 						catch (PDOException $ex)
 						{
