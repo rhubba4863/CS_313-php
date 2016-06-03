@@ -90,7 +90,6 @@ else
 			
 			<!-- Sound Option-->
 			<audio controls autoplay>
-			<source src="horse.ogg" type="audio/ogg">
 			<source src="Also Sprach Zarathustra.mp3" type="audio/mpeg">
 			Sorry, Your browser does not support the current audio element.
 			</audio>

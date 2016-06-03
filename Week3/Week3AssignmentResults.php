@@ -8,7 +8,7 @@ if($_SESSION["voted"] == "completed")
 	header('Location: Week3AssignmentQuestionaire.php'); 
 }*/
 //unset($_SESSION["voted"]);
-//$_SESSION["voted"] = "notcompleted";
+$_SESSION["voted"] = "notcompleted";
 ?>
 
 <!DOCTYPE html>

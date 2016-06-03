@@ -228,7 +228,6 @@ if($_SESSION["voted"] == "completed")
 					href="Week3AssignmentQuestionaire.php"> <button type="button">Return to Poll</button> </a>
 				
 				<audio controls autoplay>
-				<source src="horse.ogg" type="audio/ogg">
 				<source src="Star Trek.mp3" type="audio/mpeg">
 				Sorry, Your browser does not support the current audio element.
 				</audio>
