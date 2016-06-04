@@ -60,8 +60,7 @@ require("dbConnector.php");
 					<?php 
 						//$_SESSION["calendar"] = "notSet";	
 					?>
-					<p  style='font-size: 20px'> Congratulations for viewing this site. Enter data below to discover semesters, classes, students,
-					and how they relate with each other.</p>
+					<p  style='font-size: 20px'> Congratulations for viewing this site. The desired connections are shown below. Once finished continue on with the other connections.</p>
 
 					
 					<?php 
@@ -318,7 +317,7 @@ require("dbConnector.php");
 			
 			<!-- Sound Option-->
 			<audio controls autoplay>
-			<source src="Also Sprach Zarathustra.mp3" type="audio/mpeg">
+			<source src="Star Trek.mp3" type="audio/mpeg">
 			Sorry, Your browser does not support the current audio element.
 			</audio>
 			

@@ -47,8 +47,8 @@ require("dbConnector.php");
 					<?php 
 						//$_SESSION["calendar"] = "notSet";	
 					?>
-					<p  style='font-size: 20px'> Congratulations for viewing this site. Enter data below to discover semesters, classes, students,
-					and how they relate with each other.</p>
+					<!--<p  style='font-size: 20px'> Congratulations for viewing this site. Enter data below to discover semesters, classes, students,
+					and how they relate with each other.</p> -->
 
 					
 					<?php 
